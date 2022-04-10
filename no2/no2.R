@@ -1,4 +1,8 @@
-#NO.2
+# No. 2
+# Terdapat 20 pasien menderita Covid19 dengan peluang sembuh sebesar 0.2. Tentukan :
+#   a. Peluang terdapat 4 pasien yang sembuh.
+#   b. Gambarkan grafik histogram berdasarkan kasus tersebut.
+#   c. Nilai Rataan (??) dan Varian ( ) dari ??² Distribusi Binomial.
 n2=20
 prob2=0.2
 x2=4

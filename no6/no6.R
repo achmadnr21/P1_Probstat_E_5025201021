@@ -1,5 +1,20 @@
-#NO.6
-
+# No. 6
+# Diketahui generate random nilai sebanyak 100 data, mean = 50, sd = 8. Tentukan
+#   a. Fungsi Probabilitas dari Distribusi Normal P(X1 ??? x ??? X2), hitung Z-Score Nya dan plot
+#      data generate randomnya dalam bentuk grafik. Petunjuk(gunakan fungsi plot()).
+#      Keterangan :
+#       X1 = Dibawah rata-rata
+#       X2 = Diatas rata-rata
+#       Contoh data :
+#         1,2,4,2,6,3,10,11,5,3,6,8
+#         rata-rata = 5.083333
+#         X1 = 5
+#         X2 = 6
+#   b. Generate Histogram dari Distribusi Normal dengan breaks 50 dan format penamaan:
+#      NRP_Nama_Probstat_{Nama Kelas}_DNhistogram
+#      Contoh :
+#         312312312_Rola_Probstat_A_DNhistogram
+#   c. Nilai Varian ( ) dari hasil generate random nilai ??² Distribusi Normal
 set.seed(0)
 sd <- 8 
 #standar deviasi
