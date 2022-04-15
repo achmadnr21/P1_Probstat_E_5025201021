@@ -2,7 +2,7 @@
 # Diketahui bilangan acak (random variable) berdistribusi exponential (?? = 3). Tentukan
 #   a. Fungsi Probabilitas dari Distribusi Exponensial
 #   b. Histogram dari Distribusi Exponensial untuk 10, 100, 1000 dan 10000 bilangan random
-#   c. Nilai Rataan (??) dan Varian ( ??² ) dari Distribusi Exponensial untuk n = 100 dan ?? = 3
+#   c. Nilai Rataan (??) dan Varian ( ??Â² ) dari Distribusi Exponensial untuk n = 100 dan ?? = 3
 #      Petunjuk:
 #       ??? Gunakan set.seed(1)
 #       ??? Gunakan fungsi bawaan R
@@ -16,7 +16,7 @@ hist(rexp(1000,rate=1),main="Histogram of Exponensial")
 hist(rexp(10000,rate=1),main="Histogram of Exponensial")
 #c
 n5=100
-mean = 1/x
+mean = 1/x5
 mean
 var = ((mean) * (1/sqrt(n5)))*((mean) * (1/sqrt(n5)))
 var
